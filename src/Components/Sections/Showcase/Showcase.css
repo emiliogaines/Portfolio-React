@@ -1,0 +1,39 @@
+.downloadLogo {
+  height: 20px;
+}
+
+.card.badplats {
+  color: white;
+  background-color: #0292d8;
+  transition: 0.3s;
+}
+
+.card.drzcompanion {
+  color: white;
+  background-color: #ffc506;
+  transition: 0.3s;
+}
+
+.card.asteroiddefence {
+  color: white;
+  background-color: #1e1e1e;
+  transition: 0.3s;
+}
+
+.card.droplet {
+  color: white;
+  background-color: #4389fd;
+  transition: 0.3s;
+}
+
+.card.memegenerator {
+  color: white;
+  background-color: #f38b02;
+  transition: 0.3s;
+}
+
+.btn-white-background {
+  background-color: whitesmoke;
+  color: black;
+  border-color: black !important;
+}
