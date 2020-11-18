@@ -5,7 +5,7 @@ class Showcase extends Component {
     return (
       <div className="card shadow">
         <div className="card-body">
-          <h5 className="card-title">🍩 Kunskaper</h5>
+          <h5 className="card-title">🧠 Kunskaper</h5>
           <hr />
           <p className="card-text">
             Jag har haft programmering som hobby i ungefär 8 år även om det har
