@@ -13,23 +13,24 @@ class Intro extends Component {
             <div className="col-auto selfie-col">
               <img
                 src={Selfie}
-                className="img-thumbnail rounded-circle shadow mb-1"
+                className="img-thumbnail rounded-circle shadow-sm"
                 alt="Selfie"
               />
-              <br />
-              <small className="text-center">
-                <i>Jag och lillasyster</i> 🌸
-              </small>
             </div>
             <div className="col">
               <p className="card-text">
-                Mitt namn är Emilio Gaines och jag är 21 år gammal. (Fyller 22
-                snart!) Jag pluggar nuvarande till Systemutvecklare på
-                Handelsakademin och har tidigare pluggat på Göteborgs
-                Universitet inom deras Chalmers avdelning.
+                <b>Hejsan!</b>
+                <br />
+                Mitt namn är Emilio Gaines och jag är 22 år gammal. Jag pluggar
+                nuvarande till Systemutvecklare på Handelsakademin och har
+                tidigare pluggat på Göteborgs Universitet inom deras Chalmers
+                avdelning.
                 <br />
                 Jag läser nu mitt sista år, alltså kommer jag till sommaren 2021
                 vara färdigexaminerad.
+                <br />
+                Vi på Handelsakademin ska inom snar framtid ha praktik. Detta
+                kan ni läsa mer om under <b>Praktik</b>.
               </p>
             </div>
           </div>

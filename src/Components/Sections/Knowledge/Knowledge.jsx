@@ -10,10 +10,12 @@ class Showcase extends Component {
           <p className="card-text">
             Jag har haft programmering som hobby i ungefär 8 år även om det har
             varit lite till och från. Under denna tid har jag jobbat framförallt
-            inom följande programmeringspråk dock främst apputveckling:
+            inom följande programmeringspråk dock främst apputveckling och
+            backend:
             <br />
             <b>
-              Kotlin, Java, .NET, C++, C#, PHP, React, Javascript, HTML, CSS
+              Kotlin, Java, Swift, .NET, C++, C#, PHP, React, Javascript, HTML,
+              CSS
             </b>
           </p>
         </div>
