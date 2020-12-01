@@ -14,8 +14,8 @@ class Showcase extends Component {
             backend:
             <br />
             <b>
-              Kotlin, Java, Swift, .NET, C++, C#, PHP, React, Javascript, HTML,
-              CSS
+              Kotlin, Java, Swift, .NET, C++, C#, PHP (+ SQL), React,
+              Javascript, HTML, CSS
             </b>
           </p>
         </div>
