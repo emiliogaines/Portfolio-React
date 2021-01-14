@@ -13,7 +13,7 @@ class Intro extends Component {
             <div className="col-auto selfie-col">
               <img
                 src={Selfie}
-                className="img-thumbnail rounded-circle shadow-sm"
+                className="img-thumbnail shadow-sm"
                 alt="Selfie"
               />
             </div>

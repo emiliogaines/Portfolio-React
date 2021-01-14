@@ -11,7 +11,10 @@ const Courses = [
   { Name: "LIA 1 - Lärande i arbete", Grade: "VG" },
   { Name: "Agil projektledning", Grade: "G" },
   { Name: "Webbapplikationer", Grade: "VG" },
-  { Name: "Objektorienterad programmering, avancerad", Grade: "Ej läst än" },
+  {
+    Name: "Objektorienterad programmering, avancerad",
+    Grade: "Läser",
+  },
 ];
 
 class Intro extends Component {
