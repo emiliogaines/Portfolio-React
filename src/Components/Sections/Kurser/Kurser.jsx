@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Praktik.css";
+import "./Kurser.css";
 
 const Courses = [
   { Name: "Introduktion till systemutveckling", Grade: "VG" },
@@ -13,7 +13,15 @@ const Courses = [
   { Name: "Webbapplikationer", Grade: "VG" },
   {
     Name: "Objektorienterad programmering, avancerad",
-    Grade: "Läser",
+    Grade: "VG",
+  },
+  {
+    Name: "LIA 2 - Lärande i arbete",
+    Grade: "Nuvarande",
+  },
+  {
+    Name: "Examensarbete",
+    Grade: "Ej läst",
   },
 ];
 
@@ -22,20 +30,9 @@ class Intro extends Component {
     return (
       <div className="card shadow">
         <div className="card-body">
-          <h5 className="card-title">👨‍💻 Praktik</h5>
+          <h5 className="card-title">👨‍💻 Kurser</h5>
           <hr />
-          <p className="card-text">
-            Vi som studerar på Handelsakademin ska utföra våran praktik, även
-            kallat Lärande i Arbete (LIA), mellan datumen{" "}
-            <b>2021&#8209;02&#8209;08</b> och <b>2021&#8209;05&#8209;14</b>.
-            <br />
-            Jag söker därmed en plats att utföra min praktik på som har en
-            relevant IT-inriktning.
-          </p>
-          <hr />
-          <small>
-            Följande kurser har vi läst eller ska läsa inför praktiken:
-          </small>
+          <p className="card-text">Följande kurser med respektive betyg ingår i vår studieplan.</p>
           <ul className="list-group mt-2">
             {Courses.map((course) => (
               <li key={course.Name} className="list-group-item">

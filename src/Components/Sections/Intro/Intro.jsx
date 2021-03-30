@@ -10,27 +10,19 @@ class Intro extends Component {
           <h5 className="card-title">🙋‍♂️ Välkommen</h5>
           <hr />
           <div className="row">
-            <div className="col-auto selfie-col">
-              <img
-                src={Selfie}
-                className="img-thumbnail shadow-sm"
-                alt="Selfie"
-              />
+            <div className="col-auto">
+              <img src={Selfie} className="img-thumbnail shadow-sm selfie" alt="Selfie" />
             </div>
             <div className="col">
               <p className="card-text">
                 <b>Hejsan!</b>
                 <br />
-                Mitt namn är Emilio Gaines och jag är 22 år gammal. Jag pluggar
-                nuvarande till Systemutvecklare på Handelsakademin och har
-                tidigare pluggat på Göteborgs Universitet inom deras Chalmers
-                avdelning.
+                Mitt namn är Emilio Gaines och jag är 22 år gammal. Jag pluggar nuvarande till Systemutvecklare på Handelsakademin och har tidigare
+                pluggat på Göteborgs Universitet inom deras Chalmers avdelning.
                 <br />
-                Jag läser nu mitt sista år, alltså kommer jag till sommaren 2021
-                vara färdigexaminerad.
+                Jag läser nu mitt sista år, alltså kommer jag till sommaren 2021 vara färdigexaminerad.
                 <br />
-                Vi på Handelsakademin ska inom snar framtid ha praktik. Detta
-                kan ni läsa mer om under <b>Praktik</b>.
+                Jag söker nu ett jobb tills jag har tagit examen eller som jag kan påbörja tidigare.
               </p>
             </div>
           </div>
