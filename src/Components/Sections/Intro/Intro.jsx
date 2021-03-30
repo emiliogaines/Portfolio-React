@@ -22,7 +22,7 @@ class Intro extends Component {
                 <br />
                 Jag läser nu mitt sista år, alltså kommer jag till sommaren 2021 vara färdigexaminerad.
                 <br />
-                Jag söker nu ett jobb tills jag har tagit examen eller som jag kan påbörja tidigare.
+                Jag söker nu ett jobb som jag kan påbörja före eller efter examen.
               </p>
             </div>
           </div>
