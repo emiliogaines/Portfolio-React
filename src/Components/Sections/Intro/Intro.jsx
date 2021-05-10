@@ -23,6 +23,10 @@ class Intro extends Component {
                 Jag läser nu mitt sista år, alltså kommer jag till sommaren 2021 vara färdigexaminerad.
                 <br />
                 Jag söker nu ett jobb som jag kan påbörja före eller efter examen.
+                <br />
+                <a href={"/files/CV_Emilio_Gaines.pdf"} download>
+                  {"< Hämta mitt CV genom att klicka här. />"}
+                </a>
               </p>
             </div>
           </div>
